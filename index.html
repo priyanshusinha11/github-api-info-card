@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub API URL Form</title>
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>GitHub API URL Form</h2>
+    <form id="githubForm">
+      <label for="githubUrl">Enter GitHub API URL:</label><br />
+      <input type="text" id="githubUrl" name="githubUrl" required /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <div id="cardContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
